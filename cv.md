@@ -6,7 +6,6 @@
 ---
 #### Contact information:
 **Telegram:** @Zulfat95
-
 **Mail:** zvboston95gmail.com
 
 ### About me:
