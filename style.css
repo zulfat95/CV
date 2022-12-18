@@ -1,7 +1,61 @@
+@font-face {
+    font-family: 'Titillium Web';
+    src: url(assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+    font-weight: 600;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 html, body { 
     margin: 0;
+    padding: 0;
 }
 
 body {
-    background-image: url("box-sizing.png");
+    font-family: 'Titillium Web';
+}
+
+.header {
+    background-color: hwb(153 40% 30% / 0.84);
+    color: rgba(40, 40, 40, 0.884);
+}
+
+ul {
+    min-height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center ;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 26px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    background-color: hwb(153 40% 30% / 0.84);
+    color: rgba(40, 40, 40, 0.884);
+}
+
+.info {
+    margin-left: 75px;
+}
+
+.logo {
+    margin-right: 75px;
 }
