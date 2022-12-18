@@ -28,6 +28,9 @@ body {
 
 .section-title {
     letter-spacing: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: hwb(153 7% 63%);
 }
 
 .nav-list {
@@ -55,15 +58,28 @@ nav li {
     list-style-type: none;
 }
 
+.main {
+    padding-top: 20px;
+    background-color: hwb(156 90% 2%);
+}
+
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.section-profile {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 
 .section {
     width: 50%;
@@ -73,13 +89,6 @@ nav li {
     .section {
         width: 100%;
     }
-}
-
-.profile {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    font-size: 30px;
 }
 
 .avatar {
@@ -106,4 +115,8 @@ nav li {
 
 .logo {
     margin-right: 45px;
+}
+
+.section:nth-child(odd) {
+    padding-left: 30px;
 }
